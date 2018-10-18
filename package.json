@@ -1,0 +1,23 @@
+{
+  "name": "easy-translate-cli",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "babel src --out-dir build"
+  },
+  "bin": {
+    "yt": "./build/bin/index.js"
+  },
+  "author": "Vadim Yuldashbaev",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "node-fetch": "^2.2.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.1.2",
+    "@babel/core": "^7.1.2",
+    "@babel/preset-env": "^7.1.0"
+  }
+}
